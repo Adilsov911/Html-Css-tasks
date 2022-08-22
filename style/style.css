@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    overflow: auto;
+    background-color: #1F1E24;
+    padding: 40px 13rem;
+}
+#header .navbar{
+    float: right;
+}
+#header .logo{
+    float: left;
+}
+.logo a{
+    font-size: 25px;
+    font-weight: bold;
+    color: #FED136;
+}
+.link{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 20px;
+}
+#Find{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 19rem 0;
+}
+#Find h1{
+    font-size: 36px;
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 32px;
+}
+#Find p{
+    font-size: 72px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 62px;
+}
+#Find a{
+    background-color: #FFC800;
+    color: #fff;
+    padding: 20px 60px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#Find a:hover{
+    background-color: #7c6512;
+}
+#Browse{
+    padding: 40px 13rem;
+    background-color: #F8F9FA;
+    overflow: auto;
+}
+.br-text{
+    text-align: center;
+    
+}
+.br-text h1{
+    color: #212529;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.br-text p{
+    color:#6c757d;
+    font-size: 16px;
+    margin-bottom: 64px;
+}
+.br-all .box{
+    width: 30%;
+    float: left;
+    margin: 0  1% 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+    
+}
+.br-all .box:hover{
+    box-shadow: 4px 3px 14px #888888;
+    transform: translateY(-10px);
+}
+.br-all .box .top img{
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 7px 7px 0 0 ;
+}
+
+.br-all .box .bottom{
+    text-align: center;
+    background-color: #fff;
+    padding: 13px 0;
+    border-radius: 0 0 7px 7px;
+}
+#About{
+    padding: 40px 13rem;
+    background-color: #F8F9FA;
+    overflow: auto;
+    
+}
+.Headertext{
+    text-align: center;
+}
+.Headertext h1{
+    font-size: 40px;
+    padding: 0 0 16px;
+}
+.Headertext p{
+    color: #6c757d;
+    padding: 0 0 64px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.alltext{
+    
+    width: 33%;
+   float: left;
+    margin: 0  1% 40px;
+}
+.alltext .texts{
+    text-align: center;
+   padding: 13px 0;
+  
+    
+   
+}
+
+
